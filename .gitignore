@@ -14,6 +14,20 @@ modpacks/
 # Launcher executable (too large for Git)
 MicroVision-Setup.exe
 
+# Build artifacts & large files
+repo/lib/net/minecraftforge/
+cache/
+build/
+
+# Upload scripts (local development only)
+upload-to-r2.js
+upload-with-curl.ps1
+
+# Documentation (local development only)
+FINAL_SUMMARY.md
+README_PROGRESS.md
+SETUP_INSTRUCTIONS.md
+
 # Dependencies
 node_modules/
 dist/
