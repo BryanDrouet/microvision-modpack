@@ -1,12 +1,18 @@
-# Nebula (development tool)
-Nebula
+# Development tools (external repos)
+Nebula/
+HeliosLauncher/
 
 # Mods folder (hosted on Cloudflare R2)
 mods/
 
+# Large content files (hosted externally)
+resourcepacks/
+shaderpacks/
+schematics/
+modpacks/
+
 # Launcher executable (too large for Git)
 MicroVision-Setup.exe
-HeliosLauncher/dist/
 
 # Dependencies
 node_modules/
