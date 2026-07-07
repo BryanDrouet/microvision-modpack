@@ -4,6 +4,10 @@ Nebula
 # Mods folder (hosted on Cloudflare R2)
 mods/
 
+# Launcher executable (too large for Git)
+MicroVision-Setup.exe
+HeliosLauncher/dist/
+
 # Dependencies
 node_modules/
 dist/
