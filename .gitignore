@@ -1,0 +1,23 @@
+# Nebula (development tool)
+Nebula
+
+# Mods folder (hosted on Cloudflare R2)
+mods/
+
+# Dependencies
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.cloudflare
+
+# IDE
+.vscode/
+.idea/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
