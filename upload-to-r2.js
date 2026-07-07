@@ -1,27 +1,42 @@
 const fs = require('fs');
 const path = require('path');
 const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3');
+const { NodeHttpHandler } = require('@aws-sdk/node-http-handler');
 const crypto = require('crypto');
 require('dotenv').config({ path: '.env.cloudflare' });
 
 const ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID;
-const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN;
+const ACCESS_KEY_ID = process.env.CLOUDFLARE_ACCESS_KEY_ID;
+const SECRET_ACCESS_KEY = process.env.CLOUDFLARE_SECRET_ACCESS_KEY;
 const BUCKET_NAME = process.env.CLOUDFLARE_BUCKET_NAME;
 const BUCKET_URL = process.env.CLOUDFLARE_BUCKET_URL;
 
-if (!ACCOUNT_ID || !API_TOKEN || !BUCKET_NAME || !BUCKET_URL) {
+if (!ACCOUNT_ID || !ACCESS_KEY_ID || !SECRET_ACCESS_KEY || !BUCKET_NAME || !BUCKET_URL) {
     console.error('❌ Missing Cloudflare R2 credentials in .env.cloudflare');
-    console.error('Please configure: CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_API_TOKEN, CLOUDFLARE_BUCKET_NAME, CLOUDFLARE_BUCKET_URL');
+    console.error('Please configure:');
+    console.error('  - CLOUDFLARE_ACCOUNT_ID');
+    console.error('  - CLOUDFLARE_ACCESS_KEY_ID');
+    console.error('  - CLOUDFLARE_SECRET_ACCESS_KEY');
+    console.error('  - CLOUDFLARE_BUCKET_NAME');
+    console.error('  - CLOUDFLARE_BUCKET_URL');
     process.exit(1);
 }
+
+const https = require('https');
+const httpAgent = new https.Agent({
+    rejectUnauthorized: false,
+});
 
 const s3Client = new S3Client({
     region: 'auto',
     credentials: {
-        accessKeyId: ACCOUNT_ID,
-        secretAccessKey: API_TOKEN,
+        accessKeyId: ACCESS_KEY_ID,
+        secretAccessKey: SECRET_ACCESS_KEY,
     },
     endpoint: `https://${ACCOUNT_ID}.r2.cloudflarestorage.com`,
+    requestHandler: new NodeHttpHandler({
+        httpsAgent: httpAgent,
+    }),
 });
 
 async function calculateMD5(filePath) {
@@ -84,18 +99,18 @@ async function main() {
     try {
         console.log('🚀 Starting upload to Cloudflare R2...\n');
 
-        // Upload from Nebula/servers/MicroVision/mods
-        const nebulaModsPath = path.join(__dirname, '..', '..', 'Nebula', 'servers', 'MicroVision', 'mods');
+        // Upload from mods/ directory
+        const modsPath = path.join(process.cwd(), 'mods');
         
-        if (fs.existsSync(nebulaModsPath)) {
-            console.log(`📂 Uploading mods from: ${nebulaModsPath}\n`);
-            const results = await uploadModsDirectory(nebulaModsPath);
+        if (fs.existsSync(modsPath)) {
+            console.log(`📂 Uploading mods from: ${modsPath}\n`);
+            const results = await uploadModsDirectory(modsPath);
             
             console.log('');
             console.log(`✨ Upload complete! ${results.length} files uploaded.`);
             console.log(`📍 Base URL: ${BUCKET_URL}/mods/`);
         } else {
-            console.log(`⚠️  Mods directory not found at: ${nebulaModsPath}`);
+            console.log(`⚠️  Mods directory not found at: ${modsPath}`);
         }
     } catch (error) {
         console.error('Fatal error:', error);
