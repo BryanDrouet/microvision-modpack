@@ -3,7 +3,7 @@ Nebula/
 HeliosLauncher/
 
 # Mods folder (hosted on Cloudflare R2)
-mods/
+/mods/
 
 # Large content files (hosted externally)
 resourcepacks/
