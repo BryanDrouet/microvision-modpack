@@ -10,7 +10,7 @@
     {
       "id": "MicroVision-1.20.1",
       "name": "MicroVision (Minecraft 1.20.1)",
-      "description": "MicroVision Running Minecraft 1.20.1 (Forge v47.2.0)",
+      "description": "MicroVision Running Minecraft 1.20.1 (Forge v47.4.20)",
       "icon": "https://microvision-modpack.bryan.ovh/modpack-logo.png",
       "version": "1.0.0",
       "address": "microvision.bryan.ovh",
@@ -24,83 +24,83 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.0",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.20",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 7397,
-            "MD5": "f538b3b9ad1668b3d92945741f841071",
-            "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar"
+            "size": 7394,
+            "MD5": "07f68bfdea3e3cdc7aefa32749bea73f",
+            "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.20/lowcodelanguage-1.20.1-47.4.20.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-47.2.0",
+              "id": "1.20.1-47.4.20",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16542,
-                "MD5": "374162e774d7cf1b09af7af4d7805982",
-                "url": "https://microvision-modpack.bryan.ovh/repo/versions/1.20.1-forge-47.2.0/1.20.1-forge-47.2.0.json"
+                "size": 16629,
+                "MD5": "164e2a500d5c3ba06ddb5da9d64c4f3d",
+                "url": "https://microvision-modpack.bryan.ovh/repo/versions/1.20.1-forge-47.4.20/1.20.1-forge-47.4.20.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.0",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.20",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 117589,
-                "MD5": "549205a1ba89e1c0735d9a46a338e715",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar"
+                "size": 118909,
+                "MD5": "e8e34ef2ce04f87145a6cc2095c341c4",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.20/fmlcore-1.20.1-47.4.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.0",
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.20",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16371,
-                "MD5": "ab1c94373972048884a363d08bd1720d",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar"
+                "size": 16851,
+                "MD5": "f1f54e5194c89f78a95d1366cec09caa",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.20/javafmllanguage-1.20.1-47.4.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.0",
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.20",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 4996,
-                "MD5": "1bb13fed852f5088675101b9c6b538a0",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar"
+                "size": 4994,
+                "MD5": "7a20845b12c924d53fb3c6a412e3ac02",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.20/mclanguage-1.20.1-47.4.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.2.0:universal",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.20:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2672123,
-                "MD5": "5902d79463abb7a3746c777c3919143e",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-universal.jar"
+                "size": 2507935,
+                "MD5": "f132738665fd7159682af85b9742f887",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.2.0:client",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.20:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 4791112,
-                "MD5": "d805b1803123c683648f2e65dd98f3a8",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-client.jar"
+                "size": 4848917,
+                "MD5": "a653895344f94e59c864480cda1031d1",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-client.jar"
               },
               "subModules": []
             },
@@ -151,53 +151,53 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.5",
+              "id": "org.ow2.asm:asm:9.9.1",
               "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 121863,
-                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+                "size": 126252,
+                "MD5": "1888ad1f49038441bb2d12aa6dffe396",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.5",
+              "id": "org.ow2.asm:asm-commons:9.9.1",
               "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 72209,
-                "MD5": "7d1fce986192f71722b19754e4cb9e61",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+                "size": 75010,
+                "MD5": "7e0ef716c43d92d29e666f820df24e2c",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.5",
+              "id": "org.ow2.asm:asm-tree:9.9.1",
               "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 51944,
-                "MD5": "44755681b7d6fa7143afbb438e55c20c",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+                "size": 51963,
+                "MD5": "7eb17cd0d09b03fbe473e51edfc6e4d2",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.5",
+              "id": "org.ow2.asm:asm-util:9.9.1",
               "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 91076,
-                "MD5": "ad0016249fb68bb9196babefd47b80dc",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+                "size": 94643,
+                "MD5": "fd4d359daf227302ab9cefd36476ca72",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.5",
+              "id": "org.ow2.asm:asm-analysis:9.9.1",
               "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 33978,
-                "MD5": "4df0adafc78ebba404d4037987d36b61",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+                "size": 35170,
+                "MD5": "68bd4a0266ad181cfca3f1603401ca68",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
               }
             },
             {
@@ -221,13 +221,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:eventbus:6.0.5",
+              "id": "net.minecraftforge:eventbus:6.2.33",
               "name": "Minecraft Forge (eventbus)",
               "type": "Library",
               "artifact": {
-                "size": 53985,
-                "MD5": "2a6245210b446b2144071e71ca13432b",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+                "size": 64014,
+                "MD5": "0b419ea48f46de30ee4e6241e4fdf9d4",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
               }
             },
             {
@@ -241,13 +241,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:coremods:5.0.1",
+              "id": "net.minecraftforge:coremods:5.2.4",
               "name": "Minecraft Forge (coremods)",
               "type": "Library",
               "artifact": {
-                "size": 24199,
-                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
               }
             },
             {
@@ -361,13 +361,13 @@
               }
             },
             {
-              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
               "name": "Minecraft Forge (nashorn-core)",
               "type": "Library",
               "artifact": {
-                "size": 2167288,
-                "MD5": "91e98c20afa1090c344229ce28b4c53f",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
               }
             },
             {
@@ -411,23 +411,23 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.0",
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.20",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 264245,
-                "MD5": "6ea3c95084cc6dec3205fae098bb8cab",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.0/fmlloader-1.20.1-47.2.0.jar"
+                "size": 270672,
+                "MD5": "29197f7093c8b9d058bdd22bc871c5cc",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.20/fmlloader-1.20.1-47.4.20.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.0",
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.20",
               "name": "Minecraft Forge (fmlearlydisplay)",
               "type": "Library",
               "artifact": {
-                "size": 170333,
-                "MD5": "7050197358f88cf4ea899066fc97625d",
-                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.0/fmlearlydisplay-1.20.1-47.2.0.jar"
+                "size": 170513,
+                "MD5": "bddd8e57abdc41ebaac63f1ae74d9fa3",
+                "url": "https://microvision-modpack.bryan.ovh/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.20/fmlearlydisplay-1.20.1-47.4.20.jar"
               }
             }
           ]
