@@ -15,9 +15,11 @@ modpacks/
 MicroVision-Setup.exe
 
 # Build artifacts & large files
-repo/
 cache/
 build/
+servers/
+Nebula/nebula-output.log
+nebula-output.log
 
 # Dependencies
 node_modules/
