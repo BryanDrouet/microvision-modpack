@@ -7,5 +7,6 @@ echo.
 echo Compilation terminee!
 echo.
 dir /B dist\*.exe
+copy /Y "dist\*.exe" "..\MicroVision-Setup.exe"
 echo.
 pause
