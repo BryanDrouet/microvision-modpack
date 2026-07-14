@@ -1,0 +1,6 @@
+[submodule "HeliosLauncher"]
+	path = HeliosLauncher
+	url = https://github.com/BryanDrouet/HeliosLauncher.git
+[submodule "Nebula"]
+	path = Nebula
+	url = https://github.com/BryanDrouet/Nebula.git
