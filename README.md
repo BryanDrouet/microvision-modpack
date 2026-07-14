@@ -2,14 +2,13 @@
 
 **Minecraft 1.20.1 Modpack** - 135+ mods, Forge 47.2.0
 
-## 🎮 Download
+## Download
 
 Download **MicroVision-Setup.exe** and run it. That's it!
 
 The launcher will automatically download and manage all 135 mods.
 
-## 🔄 Automatic Updates
-
+## Automatic Updates
 - The launcher checks for mod updates **every time it starts**
 - Changes to `distribution.json` are fetched automatically
 - Mods are hosted on Cloudflare R2 for fast downloads
@@ -34,7 +33,7 @@ Your Computer (Local)          GitHub              Cloudflare R2          User's
     │                             │                      │                ✅ Automatic!
 ```
 
-## 🚀 For Developers
+## For Developers
 
 ### Update Mods Easily
 
@@ -45,9 +44,9 @@ node update-mods.js
 ```
 
 This will:
-1. ✅ Generate new `distribution.json` from your mods
-2. ✅ Upload changes to Cloudflare R2
-3. ✅ Push to GitHub
+1. Generate new `distribution.json` from your mods
+2. Upload changes to Cloudflare R2
+3. Push to GitHub
 
 Users get updates automatically on next launcher start!
 
@@ -67,11 +66,11 @@ Users get updates automatically on next launcher start!
 4. Push to GitHub:
    ```bash
    git add distribution.json
-   git commit -m "🔄 Update: [describe changes]"
+   git commit -m "Update: [describe changes]"
    git push origin main
    ```
 
-## 📁 Repository Structure
+## Repository Structure
 
 - `index.html` - Landing page
 - `distribution.json` - Mod metadata and URLs
@@ -80,7 +79,7 @@ Users get updates automatically on next launcher start!
 - `.env.cloudflare.example` - Template for Cloudflare R2
 - `README.md` - This file
 
-## ⚙️ Configuration
+## Configuration
 
 ### Cloudflare R2 Setup
 
@@ -94,7 +93,7 @@ Users get updates automatically on next launcher start!
    CLOUDFLARE_BUCKET_URL=https://...r2.cloudflarestorage.com
    ```
 
-## 🎯 Result
+## Result
 
 **Perfect for users:**
 - Download .exe once

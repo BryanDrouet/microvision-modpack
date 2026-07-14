@@ -1,29 +1,39 @@
-# Development tools (external repos)
-Nebula/
-HeliosLauncher/
+# Development tools (external repos - git submodules expected)
+# Nebula/        # Uncomment if not a submodule and want to ignore it
+# HeliosLauncher/ # Uncomment if not a submodule and want to ignore it
 
 # Mods folder (hosted on Cloudflare R2)
 /mods/
 
-# Large content files (hosted externally)
+# Large content files (hosted externally, not needed in Git)
 resourcepacks/
 shaderpacks/
 schematics/
 modpacks/
 
-# Launcher executable (too large for Git)
+# Launcher executable (too large for Git - regenerate with npm run dist:win)
 MicroVision-Setup.exe
+HeliosLauncher/dist/
 
 # Build artifacts & large files
 cache/
 build/
-servers/
 Nebula/nebula-output.log
 nebula-output.log
+
+# Server mod files (generated/hosted elsewhere)
+# Ignore large directories but keep configuration files
+servers/*/forgemods/
+servers/*/libraries/
+servers/*/files/
+!servers/*/servermeta.json
 
 # Dependencies
 node_modules/
 dist/
+HeliosLauncher/dist/
+HeliosLauncher/node_modules/
+Nebula/node_modules/
 
 # Environment files (local only)
 .env
