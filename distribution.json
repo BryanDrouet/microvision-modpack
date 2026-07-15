@@ -433,7 +433,7 @@
           ]
         },
         {
-          "id": "net.mcreator.microphoneprops:microphone_props:1.0.0@jar",
+          "id": "net.mcreator.microphoneprops:microphone_props:1.1.0@jar",
           "name": "Microphone Props",
           "type": "ForgeMod",
           "artifact": {
@@ -513,22 +513,12 @@
           }
         },
         {
-          "id": "net.blay09.mods:balm:7.3.38@jar",
+          "id": "net.blay09.mods:balm:7.3.41@jar",
           "name": "Balm",
           "type": "ForgeMod",
           "artifact": {
-            "size": 591398,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/balm-forge-1.20.1-7.3.38-all.jar",
-            "MD5": "2ff18975f2b4d0570f8eeeae85b66e42"
-          }
-        },
-        {
-          "id": "net.blay09.mods:balm:7.3.39@jar",
-          "name": "Balm",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 601013,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/balm-forge-1.20.1-7.3.39-all.jar",
+            "size": 559741,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/balm-forge-1.20.1-7.3.41-all.jar",
             "MD5": "333603ba0766e8767a790148b054ecd2"
           }
         },
@@ -573,12 +563,12 @@
           }
         },
         {
-          "id": "com.ezzenix:chatanimation:1.2.0@jar",
+          "id": "com.ezzenix:chatanimation:1.3.0@jar",
           "name": "ChatAnimation",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1014815,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/chatanimation-forge-1.2.0+mc1.20.1.jar",
+            "size": 1031906,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/chatanimation-forge-1.3.0+mc1.20.1.jar",
             "MD5": "20dca912a175846b52f16a2486d6fc34"
           }
         },
@@ -1013,12 +1003,12 @@
           }
         },
         {
-          "id": "mezz.jei:jei:15.20.0.132@jar",
+          "id": "mezz.jei:jei:15.20.0.134@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1409767,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/jei-1.20.1-forge-15.20.0.132.jar",
+            "size": 1412399,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/jei-1.20.1-forge-15.20.0.134.jar",
             "MD5": "0a9943e374cbd9d6318bade4891e51e0"
           }
         },
@@ -1103,17 +1093,7 @@
           }
         },
         {
-          "id": "com.cinemamod:mcef:2.1.6-1.20.1@jar",
-          "name": "MCEF (Minecraft Chromium Embedded Framework)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 218417,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/mcef-forge-2.1.6-1.20.1.jar",
-            "MD5": "341d01e98e3835162cf8eb439e20dbfe"
-          }
-        },
-        {
-          "id": "com.cinemamod:mcef:2.1.6-1.20.1@jar",
+          "id": "com.cinemamod:mcef:2.1.7-1.20.1@jar",
           "name": "MCEF (Minecraft Chromium Embedded Framework)",
           "type": "ForgeMod",
           "artifact": {
@@ -1143,12 +1123,12 @@
           }
         },
         {
-          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.27.58+mc1.20.1@jar",
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.27.63+mc1.20.1@jar",
           "name": "ModernFix",
           "type": "ForgeMod",
           "artifact": {
-            "size": 990660,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/modernfix-forge-5.27.58+mc1.20.1.jar",
+            "size": 1001494,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/modernfix-forge-5.27.63+mc1.20.1.jar",
             "MD5": "bcadcedf354a182b68cbdc26ce87ce0c"
           }
         },
@@ -1343,12 +1323,12 @@
           }
         },
         {
-          "id": "tizio.dev:sef:1.20.1_5.6_forge@jar",
+          "id": "tizio.dev:sef:1.20.1_5.7_forge@jar",
           "name": "Stage Equipment Furnitures",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3061120,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/S.E.F_Mod-v.5.6_1.20.1-FORGE.jar",
+            "size": 3261493,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/S.E.F_Mod-v.5.7_1.20.1-FORGE.jar",
             "MD5": "cc4099b28794bf916451b0e93f7ce8c2"
           }
         },
@@ -1603,12 +1583,12 @@
           }
         },
         {
-          "id": "com.sunekaer:yeetusexperimentus:2.3.0-build.4+mc1.20.1@jar",
+          "id": "com.sunekaer:yeetusexperimentus:2.3.1-build.6+mc1.20.1@jar",
           "name": "Yeetus Experimentus",
           "type": "ForgeMod",
           "artifact": {
             "size": 568278,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/YeetusExperimentus-Forge-2.3.0-build.4+mc1.20.1.jar",
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar",
             "MD5": "63cfccf6155fa9e83c451fca78aff079"
           }
         },
@@ -1780,6 +1760,26 @@
             "size": 31897567,
             "url": "https://mods.microvision-modpack.bryan.ovh/mods/ywzj_midi-1.20.1-forge-1.9.2-all.jar",
             "MD5": "df489e8b2cb786cef52ad00d485ce188"
+          }
+        },
+        {
+          "id": "net.forgematica:forgematica:0.1.13@jar",
+          "name": "Forgematica",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 997501,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/Forgematica-0.1.13-mc1.20.1.jar",
+            "MD5": ""
+          }
+        },
+        {
+          "id": "com.macos:mafglib:0.1.14@jar",
+          "name": "MaFgLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 521709,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/MaFgLib-0.1.14-mc1.20.1.jar",
+            "MD5": ""
           }
         }
       ]
