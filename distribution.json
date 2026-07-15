@@ -823,16 +823,6 @@
           }
         },
         {
-          "id": "com.euphoriapatches:euphoria_patcher:1.9.3-r5.8.1-forge@jar",
-          "name": "Euphoria Patcher",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4231738,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/EuphoriaPatcher-1.9.3-r5.8.1-forge.jar",
-            "MD5": "f5f34cfdfe48ee96bb3e538b4be0dc5d"
-          }
-        },
-        {
           "id": "io.github.mortuusars:exposure_catalog:1.1.1@jar",
           "name": "Exposure Catalog",
           "type": "ForgeMod",
