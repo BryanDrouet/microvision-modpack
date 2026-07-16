@@ -1599,7 +1599,7 @@
           "artifact": {
             "size": 997501,
             "url": "https://mods.microvision-modpack.bryan.ovh/mods/Forgematica-0.1.13-mc1.20.1.jar",
-            "MD5": ""
+            "MD5": "8DEF10203E22C87E5820ECF2EFD14184"
           }
         },
         {
@@ -1609,7 +1609,7 @@
           "artifact": {
             "size": 521709,
             "url": "https://mods.microvision-modpack.bryan.ovh/mods/MaFgLib-0.1.14-mc1.20.1.jar",
-            "MD5": ""
+            "MD5": "739A08EC65E3C5CDD5BFC64ADC90947D"
           }
         },
         {
@@ -1619,7 +1619,17 @@
           "artifact": {
             "size": 10358145,
             "url": "https://mods.microvision-modpack.bryan.ovh/mods/Dynmap-3.6-forge-1.20.jar",
-            "MD5": ""
+            "MD5": "5265C163C46FCC1B2AC653D3CD27C2D4"
+          }
+        },
+        {
+          "id": "net.worldedit:worldeditcui:1.20+01@jar",
+          "name": "WorldEditCUI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 168681,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/WorldEditCUI-1.20+01.jar",
+            "MD5": "BE7A269D42197118F62271B60D3CC299"
           }
         }
       ]
