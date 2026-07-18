@@ -503,16 +503,6 @@
           }
         },
         {
-          "id": "forge.me.thosea:badoptimizations:2.4.1@jar",
-          "name": "BadOptimizations",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 460234,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/BadOptimizations-2.4.1-1.20.1.jar",
-            "MD5": "f8dd994ef309213c5dae5cbeef53123c"
-          }
-        },
-        {
           "id": "net.blay09.mods:balm:7.3.41@jar",
           "name": "Balm",
           "type": "ForgeMod",
@@ -750,16 +740,6 @@
             "size": 1320675,
             "url": "https://mods.microvision-modpack.bryan.ovh/mods/embeddium-0.3.31+mc1.20.1.jar",
             "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
-          }
-        },
-        {
-          "id": "dev.tr7zw:entityculling:1.10.5@jar",
-          "name": "EntityCulling",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1590221,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/entityculling-forge-1.10.5-mc1.20.1.jar",
-            "MD5": "f54a5baa0a9613d13ad0e781d245338b"
           }
         },
         {
