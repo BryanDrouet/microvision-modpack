@@ -1533,16 +1533,6 @@
           }
         },
         {
-          "id": "com.yungnickyoung.minecraft:yungscavebiomes:1.20.1-Forge-2.0.5@jar",
-          "name": "YUNG's Cave Biomes",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 13014967,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/YungsCaveBiomes-1.20.1-Forge-2.0.5.jar",
-            "MD5": "b05321af475e51ece0f7d38c64b5e842"
-          }
-        },
-        {
           "id": "com.yungnickyoung.minecraft:yungsextras:1.20-Forge-4.0.3@jar",
           "name": "YUNG's Extras",
           "type": "ForgeMod",
