@@ -1,11 +1,5 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
   "servers": [
     {
       "id": "MicroVision-1.20.1",
@@ -15,11 +9,6 @@
       "version": "1.0.0",
       "address": "microvision.bryan.ovh",
       "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
       "mainServer": true,
       "autoconnect": false,
       "modules": [
