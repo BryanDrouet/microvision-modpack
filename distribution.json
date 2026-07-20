@@ -1653,6 +1653,26 @@
           }
         },
         {
+          "id": "dev.ftb:ftb_essentials:2001.2.4@jar",
+          "name": "FTB Essentials",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 157732,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/ftb-essentials-forge-2001.2.4.jar",
+            "MD5": "C46C0AF33A0452001E8628075B341EB2"
+          }
+        },
+        {
+          "id": "dev.ftb:ftb_library:2001.2.13@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 780558,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/ftb-library-forge-2001.2.13.jar",
+            "MD5": "9DE2C76938392445E735A98B352DA9D4"
+          }
+        },
+        {
           "id": "com.mods:nocreatvedrift:1.20.1-forge-5.0.0.0@jar",
           "name": "No Creative Drift",
           "type": "ForgeMod",
