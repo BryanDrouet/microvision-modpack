@@ -453,16 +453,6 @@
           }
         },
         {
-          "id": "com.github.alexthe666:alexsmobs:1.22.9@jar",
-          "name": "Alex's Mobs",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 26350793,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/alexsmobs-1.22.9.jar",
-            "MD5": "504050d1f2e2c3019b6f53377ca354c6"
-          }
-        },
-        {
           "id": "net.mehvahdjukaar:amendments:1.20-2.2.5@jar",
           "name": "Amendments",
           "type": "ForgeMod",
@@ -1600,6 +1590,66 @@
             "size": 168681,
             "url": "https://mods.microvision-modpack.bryan.ovh/mods/WorldEditCUI-1.20+01.jar",
             "MD5": "BE7A269D42197118F62271B60D3CC299"
+          }
+        },
+        {
+          "id": "toni.myserveriscompatible:myserveriscompatible:1.20-1.0@jar",
+          "name": "MyServerIsCompatible",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3482,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/MyServerIsCompatible-1.20-1.0.jar",
+            "MD5": "61D6F7C70030CBDACBBB0053CF120B79"
+          }
+        },
+        {
+          "id": "me.alphamode:optileaves:1.20.x-1.2@jar",
+          "name": "OptiLeaves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20415,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/optileaves-1.20.x-1.2.jar",
+            "MD5": "0F7D217C604A2021D4D5BA844530FAC3"
+          }
+        },
+        {
+          "id": "timeout_fixes:timeout_fixes:1.20.1-1.0.0@jar",
+          "name": "Timeout Fixes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10209,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/timeout_fixes-1.20.1-1.0.0.jar",
+            "MD5": "A23BCBF8D525155000E592DDBB15521E"
+          }
+        },
+        {
+          "id": "net.toofast:toofast:1.20-0.4.3.5@jar",
+          "name": "TooFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3875,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/toofast-1.20-0.4.3.5.jar",
+            "MD5": "33C8F4DC6703EE68B415ED203B3A380C"
+          }
+        },
+        {
+          "id": "tfarecnim.trashslot:trashslot:1.20.1-15.1.5@jar",
+          "name": "Trash Slot",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117983,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/trashslot-forge-1.20.1-15.1.5.jar",
+            "MD5": "19290079D700B5E003FCB3DF780536F8"
+          }
+        },
+        {
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.21@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4918879,
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/voicechat-forge-1.20.1-2.6.21.jar",
+            "MD5": "7768581F20EC5D0051A7FAEF47AB898C"
           }
         },
         {
