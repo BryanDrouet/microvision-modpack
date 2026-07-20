@@ -533,16 +533,6 @@
           }
         },
         {
-          "id": "generated.forgemod:cataclysmfortresses:1.20.1@jar",
-          "name": "Cataclysm x YUNG's Better Nether Fortresses Compat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 19871,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/cataclysmfortresses-1.20.1-Forge.jar",
-            "MD5": "772abc88aa4753525beca979d321280e"
-          }
-        },
-        {
           "id": "com.ezzenix:chatanimation:1.3.0@jar",
           "name": "ChatAnimation",
           "type": "ForgeMod",
@@ -930,16 +920,6 @@
             "size": 7442998,
             "url": "https://mods.microvision-modpack.bryan.ovh/mods/kotlinforforge-4.12.0-all.jar",
             "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
-          }
-        },
-        {
-          "id": "com.github.l_ender:cataclysm:3.31@jar",
-          "name": "Cataclysm",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 73916104,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/L_Enders_Cataclysm-3.31.jar",
-            "MD5": "a296c93419f679f0da7100da6e6e35af"
           }
         },
         {
@@ -1333,16 +1313,6 @@
           }
         },
         {
-          "id": "com.axperty:toomanypaintings:25.10.20-1.20-forge@jar",
-          "name": "Too Many Paintings!",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 115273,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/toomanypaintings-25.10.20-1.20-forge.jar",
-            "MD5": "61be203065f1c34d607ec89914239144"
-          }
-        },
-        {
           "id": "com.corosus.watut.loader:watut:1.20.1-1.2.3@jar",
           "name": "What Are They Up To",
           "type": "ForgeMod",
@@ -1368,18 +1338,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 811968,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/webdisplays-2.0.2-1.20.1.jar",
+            "url": "https://mods.microvision-modpack.bryan.ovh/mods/webdisplays-2.0.1-1.20.1.jar",
             "MD5": "e10830a26736c48d5726755a81f20429"
-          }
-        },
-        {
-          "id": "xerca.xercapaint:xercapaint:1.20.1-1.1.0@jar",
-          "name": "Joy of Painting",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 403594,
-            "url": "https://mods.microvision-modpack.bryan.ovh/mods/xercapaint-1.20.1-1.1.0.jar",
-            "MD5": "242959749342541d81a625020f2b571c"
           }
         },
         {
